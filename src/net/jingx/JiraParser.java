@@ -24,7 +24,7 @@ public class JiraParser {
 
     private static final long DEFAULT_MAX_RESULTS = 100;
 
-    private static Pattern HOURS_AND_MINUTES = Pattern.compile("'(\\d*).hour,.(\\d*).minutes' (auf|protokolliert)");
+    private static Pattern HOURS_AND_MINUTES = Pattern.compile("'(\\d*).hours?,.(\\d*).minutes' (auf|protokolliert)");
     private static Pattern HOURS = Pattern.compile("'(\\d*).hours?' (auf|protokolliert)");
     private static Pattern MINUTES = Pattern.compile("'(\\d*).minutes?' (auf|protokolliert)");
 
