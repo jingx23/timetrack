@@ -1,7 +1,7 @@
 timetrack
 =========
 
-Summarizes your logged time from jira
+Summarizes your daily logged time from jira
 
 ```
 usage: timetracker
